@@ -1,4 +1,6 @@
 cask "ambientsync" do
+  arch arm: "arm64"
+
   version "0.2.0"
   sha256 "0dc03075ab660cd6153d4ad507122a444cda104f316e48aec1c4db1689d213e1"
 
@@ -9,8 +11,6 @@ cask "ambientsync" do
 
   depends_on arch: :arm64
   depends_on macos: :tahoe
-
-  arch arm: "arm64"
 
   app "AmbientSync.app"
 
