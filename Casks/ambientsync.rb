@@ -7,15 +7,14 @@ cask "ambientsync" do
   desc "Synchronizes ambient display brightness and appearance"
   homepage "https://github.com/fridaypatrick/ambient-sync"
 
-  arch arm: "arm64"
-
   depends_on arch: :arm64
   depends_on macos: :tahoe
 
-  comment "CFBundleIdentifier: cloud.piatkowski.AmbientSync"
+  arch arm: "arm64"
 
   app "AmbientSync.app"
 
+  # CFBundleIdentifier: cloud.piatkowski.AmbientSync
   caveats <<~EOS
     AmbientSync requires macOS 26 or newer on Apple silicon.
 
