@@ -1,10 +1,10 @@
 cask "ambientsync" do
   arch arm: "arm64"
 
-  version "0.2.0"
-  sha256 "0dc03075ab660cd6153d4ad507122a444cda104f316e48aec1c4db1689d213e1"
+  version "0.3.0"
+  sha256 "3cda72cf34784756399d6e6a0829cad1512bddf7dd11720d66552e521f22ba77"
 
-  url "https://github.com/fridaypatrick/ambient-sync/releases/download/v0.2.0/AmbientSync-0.2.0-arm64.dmg"
+  url "https://github.com/fridaypatrick/ambient-sync/releases/download/v0.3.0/AmbientSync-0.3.0-arm64.dmg"
   name "AmbientSync"
   desc "Synchronizes ambient display brightness and appearance"
   homepage "https://github.com/fridaypatrick/ambient-sync"
